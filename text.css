@@ -1,0 +1,27 @@
+.text {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+}
+.header-1 {
+  font: 700 114px/80% Roboto;
+  text-transform: uppercase;
+}
+.header-2 {
+  font: 48px/120% Roboto;
+}
+.header-3 {
+  font: 36px/130% Roboto;
+}
+.subtitle {
+  font: 24px/120% Roboto;
+}
+.body-medium {
+  font: 500 16px/140% Roboto;
+}
+.body {
+  font: 16px/140% Roboto;
+}
+.body-small {
+  font: 300 15px/120% Roboto;
+}
