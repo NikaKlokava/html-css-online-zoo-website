@@ -63,3 +63,31 @@
   border: 1px solid #4b9200;
   color: #4b9200;
 }
+
+.text {
+  color: #000000;
+  font-style: normal;
+  font-weight: 400;
+}
+.type-1 {
+  font: 700 114px/80% Roboto; 
+  text-transform: uppercase;
+}
+.type-2 {
+  font: 48px/120% Roboto; 
+}
+.type-3 {
+  font: 36px/130% Roboto; 
+}
+.type-4 {
+  font: 24px/120% Roboto; 
+}
+.type-5 {
+  font: 500 16px/140% Roboto; 
+}
+.type-6 {
+  font: 16px/140% Roboto; 
+}
+.type-7 {
+  font: 300 15px/120% Roboto; 
+}
