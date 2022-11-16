@@ -1,0 +1,68 @@
+.button {
+    border-style: none;
+    width: 298px;
+    height: 54px;
+    font-family: "Roboto";
+    font-style: normal;
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.buttom-online {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.buttom-favorite {
+  margin-top: 10px; /* временно */
+  background: #fe9013;
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.buttom-feed {
+  margin-top: 10px; /* временно */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.buttom-feedback {
+  margin-top: 10px; /* временно */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+.buttom-donate {
+  margin-top: 10px; /* временно */
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+}
+
+.buttom-submit {
+    margin-top: 10px; /* временно */
+    width: 129px;
+    height: 42px;
+    background: #F1F3F2;
+    border: 1px solid #4B9200;
+    border-radius: 5px; 
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #4B9200;
+}
