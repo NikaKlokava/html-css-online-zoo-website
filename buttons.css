@@ -1,68 +1,71 @@
 .button {
-    border-style: none;
-    width: 298px;
-    height: 54px;
-    font-family: "Roboto";
-    font-style: normal;
-    text-align: center;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.buttom-online {
-  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
-  border-radius: 25px;
+  margin-top: 10px; /* временно */
+  border-style: none;
+  width: 298px;
+  height: 54px;
   font-weight: 500;
   font-size: 16px;
   line-height: 140%;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
-.buttom-favorite {
-  margin-top: 10px; /* временно */
+.button-type-1 {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+}
+.button-type-1:hover {
+  background: #e47209;
+}
+.button-type-1:active {
+  background: #4b9200;
+}
+
+.button-type-2 {
   background: #fe9013;
   border-radius: 25px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
 }
 
-.buttom-feed {
-  margin-top: 10px; /* временно */
+.button-type-3 {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 25px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
+}
+.button-type-3:hover {
+  background: #e47209;
+}
+.button-type-3:active {
+  background: #4b9200;
 }
 
-.buttom-feedback {
-  margin-top: 10px; /* временно */
+.button-type-4 {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
 }
-.buttom-donate {
-  margin-top: 10px; /* временно */
+.button-type-4:hover {
+  background: #e47209;
+}
+.button-type-4:active {
+  background: #4b9200;
+}
+.button-type-5 {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 5px;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 140%;
 }
 
-.buttom-submit {
-    margin-top: 10px; /* временно */
-    width: 129px;
-    height: 42px;
-    background: #F1F3F2;
-    border: 1px solid #4B9200;
-    border-radius: 5px; 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 140%;
-    color: #4B9200;
+.button-type-6 {
+  margin-top: 10px; /* временно */
+  width: 129px;
+  height: 42px;
+  background: #f1f3f2;
+  border: 1px solid #4b9200;
+  border-radius: 5px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: #4b9200;
 }
