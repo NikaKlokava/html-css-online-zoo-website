@@ -1,0 +1,65 @@
+.button {
+  margin-top: 10px; /* временно */
+  border-style: none;
+  width: 298px;
+  height: 54px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  font-family: "Roboto";
+  font-style: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.button-type-1,
+.button-type-2,
+.button-type-3, 
+.button-type-4,
+.button-type-5 {
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+  border-radius: 25px;
+}
+.button-type-2 {
+  background: #fe9013;
+}
+.button-type-4,
+.button-type-5,
+.button-type-6 {
+  border-radius: 5px;
+}
+.button-type-6 {
+  width: 129px;
+  height: 42px;
+  background: #f1f3f2;
+  border: 1px solid #333b41;
+  font-weight: 400;
+  text-transform: none;
+  color: #000000;
+}
+
+.button-type-1:hover {
+  background: #e47209;
+}
+.button-type-1:active {
+  background: #4b9200;
+}
+
+.button-type-3:hover {
+  background: #e47209;
+}
+.button-type-3:active {
+  background: #4b9200;
+}
+
+.button-type-4:hover {
+  background: #e47209;
+}
+.button-type-4:active {
+  background: #4b9200;
+}
+.button-type-6:active {
+  border: 1px solid #4b9200;
+  color: #4b9200;
+}
