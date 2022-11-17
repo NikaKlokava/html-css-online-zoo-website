@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+.banner > img {
+  width: 100%;
+  height: 780px;
+}
+.banner > .ellipse {
+  position: absolute;
+  width: 465px;
+  height: 465px;
+  left: calc(50% - 465px / 2 + 239.5px);
+  top: 92px;
+  border-radius: 250px;
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
+}
+.banner > .header-1 {
+  position: absolute;
+  width: 500.31px;
+  height: 400px;
+  left: calc(50% - 500.31px / 2 + 330.15px);
+  top: 166px;
+  font-size: 106.496px;
+  line-height: 75%;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #000000;
+  margin-block-start: 0em;
+}
+.banner > .button-type-1 {
+  position: absolute;
+  left: calc(50% - 298px / 2 + 332px);
+  top: 626px;
+  margin: 0px;
+}
