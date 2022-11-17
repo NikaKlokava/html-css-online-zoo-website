@@ -34,53 +34,38 @@ body {
   margin: 0px;
 }
 
-.old-man {
-    padding-top: 140px;
-    padding-left: 100px;
+.img-men {
+  width: 609px;
+  height: 403px;
+  margin-left: 100px;
+  margin-top: 140px;
 }
-.old-man > .img-men {
-    width: 609px;
-    height: 403px;
+.content {
+  position: absolute;
+  width: 420px;
+  left: 780px;
+  top: 920px;
+  margin: 0px;
+}
+.content > p,
+.content > h2 {
+  margin: 0px;
 }
 
-.old-man > .header-2 {
-    height: 116px;
-    width: 465px;
-    left: 800px;
-    color: #333B41;
-    position: absolute;
-    margin: 0px;
+.content > p:nth-child(2) {
+  margin-top: 20px;
 }
-.old-man > .body {
-    position: absolute;
-    top: 1056px;
-    left: 800px;
-    width: 400px;
-    height: 42px;
-    line-height: 130%;
-    color: #333B41;
+.content > p:nth-child(3) {
+  margin-top: 54px;
 }
-.old-man > .subtitle {
-    position: absolute;
-    width: 200px;
-    height: 29px;
-    left: 800px;
-    top: 1152px;
-    color: #333B41;
+.content > p:nth-child(4) {
+  margin-top: 34px;
 }
-.old-man > .body-medium {
-    position: absolute;
-    width: 420px;
-    height: 105px;
-    left: 800px;
-    top: 1215px;
-    font-weight: 400;
-    color: #333B41;
-}
+
 .img-flow-1 {
-    position: absolute;
-    height: 605px;
-    left: 1220px;
-    top: 791px;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  position: absolute;
+  height: 605px;
+  left: 1220px;
+  top: 791px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
