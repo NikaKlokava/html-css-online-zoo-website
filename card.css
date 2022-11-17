@@ -1,0 +1,40 @@
+.card-content {
+  width: 366px;
+  height: 420px;
+  border: 1px solid #f9804b;
+  border-radius: 5px;
+  position: absolute;
+}
+.card-content > .card {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card-content > .body-medium {
+  text-transform: uppercase;
+}
+.card-content > .body-medium,
+.card-content > .body-small {
+  margin: 0px;
+  margin-left: 16px;
+}
+
+.steak {
+  position: absolute;
+  left: 310px;
+  top: 379px;
+}
+.fish {
+  position: absolute;
+  left: 321px;
+  top: 383px;
+}
+.bamboo {
+  position: absolute;
+  left: 321px;
+  top: 375px;
+}
+.banana {
+  position: absolute;
+  left: 320px;
+  top: 375px;
+}
