@@ -1,23 +1,37 @@
+/*================================================================================================*/
+/*========================================== GLOBAL STYLES =======================================*/
+/*================================================================================================*/
+
 body {
   margin: 0;
 }
-.banner > img {
-  width: 100%;
+
+/*================================================================================================*/
+/*================================================ BANNER ========================================*/
+/*================================================================================================*/
+
+/*************************************** BACKGROUND ***************************************/
+.banner-section {
   height: 780px;
-}
-.banner {
   position: relative;
 }
-.banner-content {
+.banner-section > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/*************************************** CONTENT ***************************************/
+.banner-section > .content {
   position: absolute;
   width: 600px;
   top: 92px;
   left: 730px;
 }
-.banner-content > * {
+.banner-section .content > * {
   position: absolute;
 }
-.banner-content > .ellipse {
+.banner-section .content > .ellipse {
   z-index: 1;
   width: 465px;
   height: 465px;
@@ -38,30 +52,41 @@ body {
   margin-block-start: 0em;
   margin-bottom: 60px;
 }
+.banner-text span {
+  color: #FFEE2E;
+}
 .banner-text > button {
   margin: 0px;
 }
 
-/*=========================================================*/
-/*=========================================================*/
-/*=========================================================*/
+/*================================================================================================*/
+/*================================================ ANIMALS =======================================*/
+/*================================================================================================*/
 
+/*************************************** BACKGROUND ***************************************/
 .animal-section {
   position: relative;
   background-color: purple;
   width: 100%;
-  min-height: 2700px;
+  /* min-height: 2700px; */
   padding-top: 140px;
+  padding-bottom: 100px;
 }
+
+/* CONTENT */
 .animal-section .content {
-  background-color: teal;
-  width: 1161px;
-  height: 2000px;
-  margin: 0 auto;
+  /* background-color: teal; */
+  /* width: 1161px; */
+  /* margin: 0 auto; */
+  background-color: white;
+  margin-left: 180px;
+  margin-right: 180px;
 }
 .animal-section .content > * {
   width: 100%;
 }
+
+/*************************************** HISTORY ***************************************/
 .animal-section .history {
   position: relative;
   height: 403px;
@@ -80,39 +105,41 @@ body {
   right: 0;
   width: calc(47.6% - 87px);
 }
-.texts > * {
+.animal-section .texts > * {
   color: #333b41;
 }
-.texts > p,
-.texts > h2 {
+.animal-section .texts > p,
+.animal-section .texts > h2 {
   margin: 0px;
 }
-.texts > p:nth-child(2) {
+.animal-section .texts > p:nth-child(2) {
   margin-top: 20px;
 }
-.texts > p:nth-child(3) {
+.animal-section .texts > p:nth-child(3) {
   margin-top: 54px;
 }
-.texts > p:nth-child(4) {
+.animal-section .texts > p:nth-child(4) {
   margin-top: 34px;
 }
 
+/*************************************** FLOWERS **********************************************/
 .flowers > * {
   position: absolute;
 }
-.flowers > .right-flow {
+.flowers > img:nth-child(1) {
   top: 11px;
   right: 0px;
   width: 200px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.flowers > .left-flow {
-  top: 1369px;
+.flowers > img:nth-child(3) {
+  /* top: 1369px; */
+  bottom: 0px;
   width: 292px;
 }
-.flowers > .right-bot-flow {
+.flowers > img:nth-child(2) {
   width: 368px;
   height: 275px;
-  top: 1554px;
+  bottom: 0px;
   right: 0px;
 }
