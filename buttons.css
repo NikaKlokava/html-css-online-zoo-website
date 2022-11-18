@@ -38,7 +38,7 @@
   text-transform: none;
   color: #000000;
 }
-
+/******************************************** button states *******************************************/
 .button-type-1:hover {
   background: #e47209;
 }
@@ -62,4 +62,15 @@
 .button-type-6:active {
   border: 1px solid #4b9200;
   color: #4b9200;
+}
+/******************************************** arrow button *******************************************/
+.arrow-button {
+  width: 62px;
+  height: 62px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 45px;
+  border: 0px;
+}
+.arrow-button:active {
+  background: #4B9200;
 }
