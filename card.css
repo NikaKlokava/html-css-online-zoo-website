@@ -1,0 +1,45 @@
+.card {
+  width: 366px;
+  border: 1px solid #f9804b;
+  border-radius: 5px;
+}
+.card > img {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.card > .card-content {
+  position: relative;
+  padding-bottom: 14px;
+}
+.card-texts > p:nth-child(1) {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.card-texts > * {
+  margin: 0px;
+  margin-left: 16px;
+}
+.food {
+  position: absolute;
+  left: 310px;
+  top: 8px;
+}
+.food > * {
+  position: absolute;
+}
+.food > .steak {
+  top: 4px;
+  left: 4px;
+}
+.food > .fish {
+  top: 10px;
+  left: 12px;
+}
+.food > .bamboo {
+  top: 2px;
+  left: 17px;
+}
+.food > .banana {
+  top: 4px;
+  left: 12px;
+}
