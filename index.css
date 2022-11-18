@@ -11,7 +11,6 @@ body {
 .banner-content {
   position: absolute;
   width: 600px;
-  height: 600px;
   top: 92px;
   left: 730px;
 }
@@ -42,38 +41,78 @@ body {
 .banner-text > button {
   margin: 0px;
 }
-.img-men {
-  width: 609px;
-  height: 403px;
-  margin-left: 100px;
-  margin-top: 140px;
-}
-.content {
-  position: absolute;
-  width: 420px;
-  left: 780px;
-  top: 920px;
-  margin: 0px;
-}
-.content > p,
-.content > h2 {
-  margin: 0px;
-}
 
-.content > p:nth-child(2) {
+/*=========================================================*/
+/*=========================================================*/
+/*=========================================================*/
+
+.animal-section {
+  position: relative;
+  background-color: purple;
+  width: 100%;
+  min-height: 2700px;
+  padding-top: 140px;
+}
+.animal-section .content {
+  background-color: teal;
+  width: 1161px;
+  height: 2000px;
+  margin: 0 auto;
+}
+.animal-section .content > * {
+  width: 100%;
+}
+.animal-section .history {
+  position: relative;
+  height: 403px;
+}
+.animal-section .cards {
+  margin-top: 100px;
+  background-color: red;
+  height: 403px;
+}
+.animal-section .history > img {
+  width: 52.4%;
+}
+.animal-section .history > .texts {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc(47.6% - 87px);
+}
+.texts > * {
+  color: #333b41;
+}
+.texts > p,
+.texts > h2 {
+  margin: 0px;
+}
+.texts > p:nth-child(2) {
   margin-top: 20px;
 }
-.content > p:nth-child(3) {
+.texts > p:nth-child(3) {
   margin-top: 54px;
 }
-.content > p:nth-child(4) {
+.texts > p:nth-child(4) {
   margin-top: 34px;
 }
 
-.img-flow-1 {
+.flowers > * {
   position: absolute;
-  height: 605px;
-  left: 1220px;
-  top: 791px;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+.flowers > .right-flow {
+  top: 11px;
+  right: 0px;
+  width: 200px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25))
+}
+.flowers > .left-flow {
+  top: 1369px;
+  width: 292px;
+}
+.flowers > .right-bot-flow {
+  width: 368px;
+  height: 275px;
+  top: 1554px;
+  right: 0px;
 }
