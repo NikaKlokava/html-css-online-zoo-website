@@ -1,45 +1,48 @@
 .card {
-  width: 366px;
+  /* width: 366px; */
   border: 1px solid #f9804b;
   border-radius: 5px;
 }
 .card > img {
+  width: 100%;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-.card > .card-content {
+.card .content {
   position: relative;
   padding-bottom: 14px;
+  width: 100%;
 }
-.card-texts > p:nth-child(1) {
+.card .texts > p:nth-child(1) {
   text-transform: uppercase;
   font-weight: bold;
 }
-.card-texts > * {
+.card .texts > * {
   margin: 0px;
-  margin-left: 16px;
+  padding-left: 16px;
 }
-.food {
+.card .food {
   position: absolute;
-  left: 310px;
+  /* left: 310px; */
+  right: 55px;
   top: 8px;
 }
-.food > * {
+.card .food > * {
   position: absolute;
 }
-.food > .steak {
+.card .steak {
   top: 4px;
   left: 4px;
 }
-.food > .fish {
+.card .fish {
   top: 10px;
   left: 12px;
 }
-.food > .bamboo {
+.card .bamboo {
   top: 2px;
   left: 17px;
 }
-.food > .banana {
+.card .banana {
   top: 4px;
   left: 12px;
 }
