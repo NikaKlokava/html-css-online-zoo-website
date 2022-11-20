@@ -25,3 +25,9 @@
 .body-small {
   font: 300 15px/120% Roboto;
 }
+
+@media (max-width: 1000px) {
+  .text {
+    color: red;
+  }
+}
