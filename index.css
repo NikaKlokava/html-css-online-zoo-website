@@ -236,7 +236,6 @@ body {
   margin-left: 180px;
   margin-right: 180px;
   height: 835px;
-  /* padding-left: 99px; */
 }
 /********************************************  Texts  ****************************************/
 .feed-section > .content > .texts > * {
@@ -270,15 +269,17 @@ body {
 /********************************************  Button Feed  ****************************************/
 .feed-section > .content > button {
   display: block;
-  margin: 0px auto;
+  margin: 60px auto 0px auto;
 }
-/************************************   Icons pay   *********************************************/
+/************************************   Icons pay  *********************************************/
+.feed-section > .content > .payment {
+  margin-left: 100px;
+  margin-right: 100px;
+}
 .feed-section > .content > .payment > * {
   display: inline-block;
-  vertical-align: middle;
-}
-.feed-section > .content > .payment > div {
-  margin-left: calc((100% - 168px * 3 - 6px - 0.5em) / 4);
+  vertical-align: top;
+  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6);
 }
 .feed-section .payment > div:nth-child(2) > .images > img {
   padding-top: 38px;
@@ -286,6 +287,6 @@ body {
 .feed-section .payment > div:nth-child(3) > .images > img {
   padding-top: 48px;
 }
-.feed-section .payment > img {
-  
+.feed-section > .content > .payment > img {
+  margin-top: 60px;
 }
