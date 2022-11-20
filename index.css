@@ -202,7 +202,28 @@ body {
 
 /********************************************  Background  ****************************************/
 .feed-section {
-  background: linear-gradient(315.75deg, rgba(254, 210, 144, 0.7) 30.06%, #FEBDAB 100.95%, rgba(254, 210, 144, 0.7) 106.36%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%), linear-gradient(315.75deg, rgba(254, 189, 171, 0.74) 30.06%, rgba(243, 169, 248, 0.66) 50.74%, #E0D8F0 80.49%, #EAF7FE 127.9%, #EAF7FE 149.54%);
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
   opacity: 0.9;
   width: 100%;
   padding-top: 69px;
@@ -219,11 +240,11 @@ body {
 }
 /********************************************  Texts  ****************************************/
 .feed-section > .content > .texts > * {
-  color: #333B41;
+  color: #333b41;
   margin: 0px;
 }
 .feed-section > .content > .texts > :nth-child(1) {
-  color: #FE9013;
+  color: #fe9013;
   padding-top: 41px;
   padding-bottom: 30px;
   text-align: center;
@@ -250,4 +271,21 @@ body {
 .feed-section > .content > button {
   display: block;
   margin: 0px auto;
+}
+/************************************   Icons pay   *********************************************/
+.feed-section > .content > .payment > * {
+  display: inline-block;
+  vertical-align: middle;
+}
+.feed-section > .content > .payment > div {
+  margin-left: calc((100% - 168px * 3 - 6px - 0.5em) / 4);
+}
+.feed-section .payment > div:nth-child(2) > .images > img {
+  padding-top: 38px;
+}
+.feed-section .payment > div:nth-child(3) > .images > img {
+  padding-top: 48px;
+}
+.feed-section .payment > img {
+  
 }
