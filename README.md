@@ -5,8 +5,8 @@
 ----
 ### The goals of this project are:
 - ✅ Learning how to use programming languages (*`HTML/CSS`*);
-- ✅ Be able to use languages *`in conjunction`* with each other; 
-- ✅ Learning *html creation* technics: *`div-s`*, *`span-s`*, *`images`*, *`icons`*, *`texts`* and other tags;
+- ✅ Be able to use languages *`in combination`* with each other; 
+- ✅ Learning *html creation* technics: *`div-s`*, *`span-s`*, *`images`*, *`icons`*, *`texts`* and etc;
 - ✅ Learning *css technics*: different types of *`selectors`*, *`absolute positioning`*, display elements as *`block`* and *`inline-block`*, *`margins/padding`*, *`borders`*, *`shadows`*, *`elements/texts alignments`* and etc.
 - ✅ Learning how to use *`git`* for developing production-like projects;
 - ✅ Learning how to use *`figma`* designs;
