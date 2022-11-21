@@ -1,0 +1,21 @@
+.icon > .images {
+    background: #FFFFFF;
+    width: 168px;
+    height: 168px;
+    border-radius: 5px;
+    border: 1px solid #FE9013; 
+}
+.icon > .images > img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 54px;
+}
+.icon > .texts {
+    width: 168px;
+    height: 76px;
+}
+.icon > .texts > p {
+    margin: 0px;
+    padding-top: 30px;
+    color: #333B41;
+}

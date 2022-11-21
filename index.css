@@ -7,7 +7,7 @@ body {
 }
 
 /*================================================================================================*/
-/*================================================ BANNER ========================================*/
+/*================================================1 - BANNER ========================================*/
 /*================================================================================================*/
 
 /*************************************** BACKGROUND ***************************************/
@@ -60,13 +60,12 @@ body {
 }
 
 /*================================================================================================*/
-/*================================================ ANIMALS =======================================*/
+/*================================================ 2 - ANIMALS ===================================*/
 /*================================================================================================*/
 
 /*************************************** BACKGROUND ***************************************/
 .animal-section {
   position: relative;
-  background-color: purple;
   width: 100%;
   padding-top: 140px;
   padding-bottom: 100px;
@@ -196,4 +195,105 @@ body {
   height: 275px;
   bottom: 0px;
   right: 0px;
+}
+/*================================================================================================*/
+/*========================================== 3 - PICK AND FEED ===================================*/
+/*================================================================================================*/
+
+/********************************************  Background  ****************************************/
+.feed-section {
+  background: linear-gradient(
+      315.75deg,
+      rgba(254, 210, 144, 0.7) 30.06%,
+      #febdab 100.95%,
+      rgba(254, 210, 144, 0.7) 106.36%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    ),
+    linear-gradient(
+      315.75deg,
+      rgba(254, 189, 171, 0.74) 30.06%,
+      rgba(243, 169, 248, 0.66) 50.74%,
+      #e0d8f0 80.49%,
+      #eaf7fe 127.9%,
+      #eaf7fe 149.54%
+    );
+  opacity: 0.9;
+  width: 100%;
+  padding-top: 69px;
+  padding-bottom: 100px;
+}
+.feed-section > .content {
+  background: rgba(253, 253, 255, 0.52);
+  backdrop-filter: blur(2px);
+  border-radius: 20px;
+  margin-left: 180px;
+  margin-right: 180px;
+  padding-bottom: 59px;
+}
+/********************************************  Texts  ****************************************/
+.feed-section > .content > .texts > * {
+  color: #333b41;
+  margin: 0px;
+}
+.feed-section > .content > .texts > :nth-child(1) {
+  color: #fe9013;
+  padding-top: 41px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+.feed-section > .content > .texts > :nth-child(2) {
+  margin-left: 99px;
+  padding-bottom: 40px;
+}
+.feed-section > .content > .texts > :nth-child(3) {
+  margin-left: 99px;
+  padding-bottom: 10px;
+  line-height: 130%;
+}
+.feed-section > .content > .texts > :nth-child(4) {
+  margin-left: 99px;
+  margin-right: 198px;
+  padding-bottom: 60px;
+}
+.feed-section > .content > .texts > :nth-child(5) {
+  text-align: center;
+  padding-bottom: 40px;
+}
+/********************************************  Button Feed  ****************************************/
+.feed-section > .content > button {
+  display: block;
+  margin: 60px auto 0px auto;
+}
+/************************************   Icons pay  *********************************************/
+.feed-section > .content > .payment {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.feed-section > .content > .payment > * {
+  display: inline-block;
+  vertical-align: top;
+  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6); /* 
+  * 100% - whole width
+  * 168px - width of one card (we have three of them, that's why * 3)
+  * 69px - width of one arrow (we have two, so that we need to * 2)
+  * 6px - width of one border in each card - 1px, we have 3 cards, each of them 
+  have 2 borders, so that we have 6 borders, 6 * 1px = 6px
+  * 0.5 em - standart margin that already presents in the first/third card (0.25 em in each)
+   */
+}
+.feed-section .payment > div:nth-child(2) > .images > img {
+  padding-top: 38px;
+}
+.feed-section .payment > div:nth-child(3) > .images > img {
+  padding-top: 48px;
+}
+.feed-section > .content > .payment > img {
+  margin-top: 60px;
 }
