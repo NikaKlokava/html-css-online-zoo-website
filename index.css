@@ -235,7 +235,7 @@ body {
   border-radius: 20px;
   margin-left: 180px;
   margin-right: 180px;
-  height: 835px;
+  padding-bottom: 59px;
 }
 /********************************************  Texts  ****************************************/
 .feed-section > .content > .texts > * {
@@ -279,7 +279,14 @@ body {
 .feed-section > .content > .payment > * {
   display: inline-block;
   vertical-align: top;
-  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6);
+  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6); /* 
+  * 100% - whole width
+  * 168px - width of one card (we have three of them, that's why * 3)
+  * 69px - width of one arrow (we have two, so that we need to * 2)
+  * 6px - width of one border in each card - 1px, we have 3 cards, each of them 
+  have 2 borders, so that we have 6 borders, 6 * 1px = 6px
+  * 0.5 em - standart margin that already presents in the first/third card (0.25 em in each)
+   */
 }
 .feed-section .payment > div:nth-child(2) > .images > img {
   padding-top: 38px;
