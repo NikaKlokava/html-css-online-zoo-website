@@ -20,6 +20,11 @@ body {
   height: 100%;
   object-fit: cover;
 }
+@media screen and (max-width: 420px) {
+  .banner-section {
+    height: 100%;
+  }
+}
 
 /*************************************** CONTENT ***************************************/
 .banner-section > .content {
@@ -58,6 +63,37 @@ body {
 .banner-text > button {
   margin: 0px;
 }
+@media (max-width: 420px) {
+  .banner-text > p {
+    font-size: 24px;
+    line-height: 75%;
+    margin-bottom: 30px;
+  }
+  .banner-section > .content {
+    width: 150px;
+    top: 30px;
+    right: 20px;
+    height: 150px;
+  }
+  .banner-section .content > .ellipse {
+    width: 130px;
+    height: 130px;
+    border-radius: 130px;
+  }
+  .banner-text {
+    z-index: 2;
+    margin-top: 20px;
+    margin-left: 0px;
+    text-align: center;
+    width: 150px;
+  }
+  .banner-text > button {
+    margin-top: 10px;
+    width: 100px;
+    height: 24px;
+    font-size: 8px;
+  }
+}
 
 /*================================================================================================*/
 /*================================================ 2 - ANIMALS ===================================*/
@@ -73,7 +109,6 @@ body {
 
 /* CONTENT */
 .animal-section > .content {
-  /* background-color: teal; */
   background-color: white;
   margin-left: 180px;
   margin-right: 180px;
@@ -81,6 +116,19 @@ body {
 }
 .animal-section > .content > div {
   width: 100%;
+}
+@media (max-width: 420px) {
+  .animal-section {
+    background-color: #fe9013;
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .animal-section > .content {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-bottom: 10px;
+  }
 }
 
 /*************************************** HISTORY ***************************************/
@@ -115,6 +163,20 @@ body {
 }
 .animal-section .history .texts > p:nth-child(4) {
   margin-top: 34px;
+}
+@media (max-width: 420px) {
+  .animal-section .history > .texts > * {
+    padding-left: 10px; /* space between two columns */
+  }
+  .animal-section .history .texts > p:nth-child(2) {
+    margin-top: 5px;
+  }
+  .animal-section .history .texts > p:nth-child(3) {
+    margin-top: 8px;
+  }
+  .animal-section .history .texts > p:nth-child(4) {
+    margin-top: 5px;
+  }
 }
 
 /*************************************** cards **********************************************/
@@ -279,7 +341,9 @@ body {
 .feed-section > .content > .payment > * {
   display: inline-block;
   vertical-align: top;
-  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6); /* 
+  margin-left: calc(
+    (100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6
+  ); /* 
   * 100% - whole width
   * 168px - width of one card (we have three of them, that's why * 3)
   * 69px - width of one arrow (we have two, so that we need to * 2)
