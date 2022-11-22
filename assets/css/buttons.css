@@ -15,7 +15,7 @@
 
 .button-type-1,
 .button-type-2,
-.button-type-3, 
+.button-type-3,
 .button-type-4,
 .button-type-5 {
   background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
@@ -67,19 +67,30 @@
 .arrow-button {
   width: 62px;
   height: 62px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  background: linear-gradient(113.96deg, #f9804b 1.49%, #fe9013 101.44%);
   border-radius: 45px;
   border: 0px;
 }
 .arrow-button:active {
-  background: #4B9200;
+  background: #4b9200;
 }
+
+/*=====================================================================================================*/
+/*============================================== @media ===============================================*/
+/*=====================================================================================================*/
 @media (max-width: 420px) {
   .arrow-button {
-  width: 25px;
-  height: 25px;
+    width: 25px;
+    height: 25px;
   }
   .arrow-button > img {
-    width: 100%;
+    width: 15px;
+  }
+  .button-type-1,
+  .button-type-2,
+  .button-type-3 {
+    width: 100px;
+    height: 24px;
+    font-size: 6px;
   }
 }

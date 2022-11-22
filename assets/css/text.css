@@ -26,6 +26,7 @@
   font: 300 15px/120% Roboto;
 }
 
+/*=============================================  @media ============================================*/
 @media (max-width: 420px){
   .header-2 {
     font-size: 12px;
@@ -42,43 +43,7 @@
   .body-small {
     font-size: 6px;
   }
-}
-
-/*=============================================  @media ============================================*/
-/*banner*/
-/* @media screen and (max-width: 420px) {
-  .banner-section {
-    height: 100%;
+  .header-3 {
+    font-size: 11px;
   }
 }
-@media (max-width: 420px) {
-  .banner-text > p {
-    font-size: 24px;
-    line-height: 75%;
-    margin-bottom: 30px;
-  }
-  .banner-section > .content {
-    width: 150px;
-    top: 30px;
-    right: 20px;
-    height: 150px;
-  }
-  .banner-section .content > .ellipse {
-    width: 130px;
-    height: 130px;
-    border-radius: 130px;
-  }
-  .banner-text {
-    z-index: 2;
-    margin-top: 20px;
-    margin-left: 0px;
-    text-align: center;
-    width: 150px
-  }
-  .banner-text > button {
-    margin-top: 10px;
-    width: 100px;
-    height: 24px;
-    font-size: 8px;
-}
-  } */
