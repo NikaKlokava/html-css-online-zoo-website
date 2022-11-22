@@ -82,9 +82,12 @@
   .arrow-button {
     width: 25px;
     height: 25px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
   .arrow-button > img {
-    width: 15px;
+    width: 10px;
+    height: 10px;
   }
   .button-type-1,
   .button-type-2,

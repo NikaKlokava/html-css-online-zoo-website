@@ -1,7 +1,7 @@
 .card {
   /* width: 366px; */
   border: 1px solid #f9804b;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 .card > img {
   width: 100%;
@@ -45,7 +45,7 @@
   top: 4px;
   left: 12px;
 }
-@media (max-width: 420px){
+@media (max-width: 420px) {
   .card .texts > * {
     padding-left: 7px;
   }
