@@ -119,7 +119,6 @@ body {
 }
 @media (max-width: 420px) {
   .animal-section {
-    background-color: #fe9013;
     width: 100%;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -226,7 +225,31 @@ body {
 .animal-section .cards > div:nth-child(8) {
   right: -120px;
 }
-
+@media (max-width: 420px){
+  .animal-section .cards {
+    margin-top: 20px;
+  }
+  .animal-section .cards > div.card {
+    width: calc((100% - 20px - 6px) / 3);
+  }
+  .animal-section .cards > div:nth-child(2),
+  .animal-section .cards > div:nth-child(5) {
+  margin: 0px calc(10px - 0.25em) 10px calc(10px - 0.25em);
+  }
+}
+@media (max-width: 420px){
+  .animal-section .cards > div:nth-child(7) {
+    left: -27px;
+  }
+  .animal-section .cards > div:nth-child(8) {
+    right: -27px;
+  }
+  .animal-section .cards > div:nth-child(7),
+  .animal-section .cards > div:nth-child(8) {
+  position: absolute;
+  top: calc(50% - 12.5px - 10px);
+}
+}
 /*************************************** button choose **********************************************/
 
 .animal-section > .content > button {
@@ -236,6 +259,14 @@ body {
   */
   display: block;
   margin: 70px auto 0px auto;
+}
+@media (max-width: 420px) {
+  .animal-section > .content > button {
+    margin: 30px auto 10px auto;
+    width: 100px;
+    height: 24px;
+    font-size: 6px;
+  }
 }
 
 /*************************************** FLOWERS **********************************************/
@@ -250,6 +281,7 @@ body {
 }
 .flowers > img:nth-child(3) {
   bottom: 0px;
+  left: 0px;
   width: 292px;
 }
 .flowers > img:nth-child(2) {
@@ -257,6 +289,22 @@ body {
   height: 275px;
   bottom: 0px;
   right: 0px;
+}
+@media (max-width: 420px) {
+  .flowers > img:nth-child(1) {
+    width: 40px;
+    height: 120px;
+  }
+  .flowers > img:nth-child(3) {
+    left: 0px;
+    width: 90px;
+  }
+  .flowers > img:nth-child(2) {
+    width: 100px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+  }
 }
 /*================================================================================================*/
 /*========================================== 3 - PICK AND FEED ===================================*/

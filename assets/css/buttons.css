@@ -74,3 +74,12 @@
 .arrow-button:active {
   background: #4B9200;
 }
+@media (max-width: 420px) {
+  .arrow-button {
+  width: 25px;
+  height: 25px;
+  }
+  .arrow-button > img {
+    width: 100%;
+  }
+}
