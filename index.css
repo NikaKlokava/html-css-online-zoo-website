@@ -20,7 +20,6 @@ body {
   height: 100%;
   object-fit: cover;
 }
-
 /*************************************** CONTENT ***************************************/
 .banner-section > .content {
   position: absolute;
@@ -58,7 +57,6 @@ body {
 .banner-text > button {
   margin: 0px;
 }
-
 /*================================================================================================*/
 /*================================================ 2 - ANIMALS ===================================*/
 /*================================================================================================*/
@@ -73,7 +71,6 @@ body {
 
 /* CONTENT */
 .animal-section > .content {
-  /* background-color: teal; */
   background-color: white;
   margin-left: 180px;
   margin-right: 180px;
@@ -164,7 +161,6 @@ body {
 .animal-section .cards > div:nth-child(8) {
   right: -120px;
 }
-
 /*************************************** button choose **********************************************/
 
 .animal-section > .content > button {
@@ -175,7 +171,6 @@ body {
   display: block;
   margin: 70px auto 0px auto;
 }
-
 /*************************************** FLOWERS **********************************************/
 .flowers > * {
   position: absolute;
@@ -188,6 +183,7 @@ body {
 }
 .flowers > img:nth-child(3) {
   bottom: 0px;
+  left: 0px;
   width: 292px;
 }
 .flowers > img:nth-child(2) {
@@ -251,11 +247,13 @@ body {
 .feed-section > .content > .texts > :nth-child(2) {
   margin-left: 99px;
   padding-bottom: 40px;
+  font-weight: 500;
 }
 .feed-section > .content > .texts > :nth-child(3) {
   margin-left: 99px;
   padding-bottom: 10px;
   line-height: 130%;
+  font-weight: 600;
 }
 .feed-section > .content > .texts > :nth-child(4) {
   margin-left: 99px;
@@ -279,7 +277,9 @@ body {
 .feed-section > .content > .payment > * {
   display: inline-block;
   vertical-align: top;
-  margin-left: calc((100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6); /* 
+  margin-left: calc(
+    (100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6
+  ); /* 
   * 100% - whole width
   * 168px - width of one card (we have three of them, that's why * 3)
   * 69px - width of one arrow (we have two, so that we need to * 2)

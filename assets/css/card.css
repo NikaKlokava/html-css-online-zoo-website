@@ -1,7 +1,7 @@
 .card {
   /* width: 366px; */
   border: 1px solid #f9804b;
-  border-radius: 5px;
+  border-radius: 6px;
 }
 .card > img {
   width: 100%;
@@ -44,4 +44,26 @@
 .card .banana {
   top: 4px;
   left: 12px;
+}
+@media (max-width: 420px) {
+  .card .texts > * {
+    padding-left: 7px;
+  }
+  .card .food {
+    right: 0px;
+    top: 0px;
+    width: 20px;
+    height: 20px;
+  }
+  .card .food > * {
+    width: 100%;
+    top: 0px;
+    left: 0px;
+  }
+  .card .bamboo {
+    height: 100%;
+  }
+  .fish {
+    padding-top: 4px;
+  }
 }

@@ -26,8 +26,24 @@
   font: 300 15px/120% Roboto;
 }
 
-@media (max-width: 1000px) {
-  .text {
-    color: red;
+/*=============================================  @media ============================================*/
+@media (max-width: 420px){
+  .header-2 {
+    font-size: 12px;
+  }
+  .body {
+    font-size: 8px;
+  }
+  .subtitle {
+    font-size: 10px;
+  }
+  .body-medium {
+    font-size: 8px;
+  }
+  .body-small {
+    font-size: 6px;
+  }
+  .header-3 {
+    font-size: 11px;
   }
 }

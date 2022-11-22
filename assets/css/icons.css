@@ -1,21 +1,38 @@
 .icon > .images {
-    background: #FFFFFF;
-    width: 168px;
-    height: 168px;
-    border-radius: 5px;
-    border: 1px solid #FE9013; 
+  background: #ffffff;
+  width: 168px;
+  height: 168px;
+  border-radius: 5px;
+  border: 1px solid #fe9013;
 }
 .icon > .images > img {
-    display: block;
-    margin: 0 auto;
-    padding-top: 54px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 54px;
 }
 .icon > .texts {
-    width: 168px;
-    height: 76px;
+  width: 168px;
+  max-height: 76px;
 }
 .icon > .texts > p {
-    margin: 0px;
-    padding-top: 30px;
-    color: #333B41;
+  margin: 0px;
+  padding-top: 30px;
+  color: #333b41;
+}
+/*=============================================  @media ============================================*/
+@media (max-width: 420px) {
+  .icon > .images {
+    width: 80px;
+    height: 80px;
+  }
+  .icon > .images > img {
+    width: 75%;
+    padding-top: 24px;
+  }
+  .icon > .texts > p {
+    padding-top: 10px;
+  }
+  .icon > .texts {
+    width: 80px;
+  }
 }
