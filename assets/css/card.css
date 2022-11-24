@@ -113,3 +113,28 @@
     padding-top: 4px;
   }
 }
+/********************************  testimonial-indicator  ********************/
+.indicator {
+  background: linear-gradient(
+    to left top,
+    rgba(254, 189, 171, 0.74),
+    rgba(243, 169, 248, 0.66),
+    rgba(224, 216, 240, 1),
+    rgba(234, 247, 254, 1),
+    rgba(234, 247, 254, 1)
+  );
+  border-radius: 5px;
+  padding: 1px;
+}
+.indicator .background {
+  width: 100%;
+  height: 100%;
+  border-radius: 4px;
+  background: #f5f7f6;
+}
+.indicator .slider {
+  height: 100%;
+  width: 20%;
+  background: #fe9013;
+  border-radius: 4px;
+}
