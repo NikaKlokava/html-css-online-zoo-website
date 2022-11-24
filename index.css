@@ -23,6 +23,12 @@ body {
   margin: 14px 0px 14px 220px;
   color: #ffffff;
 }
+.banner-section .web-header > a {
+  margin: 0px;
+  padding-left: 58px;
+  vertical-align: 8px;
+  text-decoration: none;
+}
 .banner-section .web-header > p {
   margin: 0px;
   padding-left: 58px;
