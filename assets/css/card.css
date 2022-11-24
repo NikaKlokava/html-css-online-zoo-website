@@ -45,6 +45,52 @@
   top: 4px;
   left: 12px;
 }
+/******************************************* Testimonials card *********************************/
+.testimonial-card {
+  background: #f1f3f2;
+  border-radius: 18px;
+  height: 371px;
+  padding-left: 16px;
+  padding-right: 14px;
+  overflow-y: hidden;
+  border-bottom: 20px solid #f1f3f2;
+}
+.gradient {
+  background: linear-gradient(
+    to top left,
+    rgba(254, 189, 171, 0.74),
+    rgba(254, 189, 171, 0.74),
+    rgba(243, 169, 248, 0.66),
+    rgba(224, 216, 240, 1),
+    rgba(224, 216, 240, 1)
+  );
+  padding: 3px;
+  border-radius: 20px;
+}
+.testimonial-card > .header {
+  width: 100%;
+  padding: 15px 0px 11px 0px;
+}
+.testimonial-card > .header > * {
+  display: inline-block;
+  margin-right: 10px;
+}
+.testimonial-card > .header > .texts > :nth-child(1) {
+  margin: 0px;
+  line-height: 120%;
+}
+.testimonial-card > .header > .texts > :nth-child(2) {
+  margin: 0px;
+  color: #bdbdbd;
+}
+.testimonial-card span {
+  vertical-align: 3px;
+}
+.testimonial-card > p {
+  margin: 0px;
+  color: #767474;
+}
+/*********************************************  @media  ******************************************/
 @media (max-width: 420px) {
   .card .texts > * {
     padding-left: 7px;
