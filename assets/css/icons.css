@@ -19,6 +19,31 @@
   padding-top: 30px;
   color: #333b41;
 }
+/* footer logo*/
+.logo {
+  width: 80px;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  text-align: center;
+  position: relative;
+  background-color: #fe9013;     /* delete later */
+  padding-bottom: 6.55px;
+}
+.logo > p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19.0145px;
+  line-height: 120%;
+  color: #ffffff;
+  margin: 0px;
+}
+.logo > img {
+  position: absolute;
+  left: 11.13px;
+  bottom: 8.79px;
+}
+
 /*=============================================  @media ============================================*/
 @media (max-width: 420px) {
   .icon > .images {
