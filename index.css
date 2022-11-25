@@ -20,19 +20,17 @@ body {
 }
 .banner-section .web-header > * {
   display: inline-block;
-  margin: 14px 0px 14px 220px;
   color: #ffffff;
 }
-.banner-section .web-header > a {
+.banner-section .web-header > a, 
+.banner-section .web-header > p  {
   margin: 0px;
   padding-left: 58px;
   vertical-align: 8px;
   text-decoration: none;
 }
-.banner-section .web-header > p {
-  margin: 0px;
-  padding-left: 58px;
-  vertical-align: 8px;
+.banner-section > .web-header > :nth-child(1) {
+  margin: 14px 0px 14px 220px;
 }
 .banner-section > .web-header > :nth-child(2) {
   padding-left: 63px;
