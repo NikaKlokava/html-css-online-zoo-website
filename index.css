@@ -10,6 +10,31 @@ body {
 /*================================================1 - BANNER ========================================*/
 /*================================================================================================*/
 
+/*****************************************   Website header  **************************************/
+.banner-section .web-header {
+  width: 100%;
+  background: black;
+  position: absolute; /* we need it, because otherwise it takes the place below image */
+  top: 0px;
+  backdrop-filter: blur(2px);
+}
+.banner-section .web-header > * {
+  display: inline-block;
+  color: #ffffff;
+}
+.banner-section .web-header > a, 
+.banner-section .web-header > p  {
+  margin: 0px;
+  padding-left: 58px;
+  vertical-align: 8px;
+  text-decoration: none;
+}
+.banner-section > .web-header > :nth-child(1) {
+  margin: 14px 0px 14px 220px;
+}
+.banner-section > .web-header > :nth-child(2) {
+  padding-left: 63px;
+}
 /*************************************** BACKGROUND ***************************************/
 .banner-section {
   height: 780px;
