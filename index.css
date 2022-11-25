@@ -318,8 +318,19 @@ body {
 .footer-section .navigation > * {
   color: white;
   text-decoration: none;
-  padding-left: 58px;
+  display: inline-block;
 }
-.footer-section .navigation > a:nth-child(1) {
+.footer-section .navigation {
   padding-left: 100px;
+  text-align: justify;
+  width: 400px;
+  line-height: 0;
+}
+.navigation::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+  overflow: hidden;
+  visibility: hidden;
+  height: 0;
 }
