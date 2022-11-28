@@ -142,3 +142,20 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+/***************************************** Testimonial-section ****************************************/
+.testimonials-section {
+  padding: 30px;
+}
+.testimonials-section > h3,
+.testimonials-section .indicator {
+  margin-bottom: 20px;
+}
+.testimonials-section .cards > * {
+  max-width: calc(100% / 4 - 10px);
+}
+.testimonials-section .indicator {
+  height: 3px;
+}
+.testimonials-section > img {
+  max-height: 120px;
+}

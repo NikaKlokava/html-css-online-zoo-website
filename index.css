@@ -22,8 +22,8 @@ body {
   display: inline-block;
   color: #ffffff;
 }
-.banner-section .web-header > a, 
-.banner-section .web-header > p  {
+.banner-section .web-header > a,
+.banner-section .web-header > p {
   margin: 0px;
   padding-left: 58px;
   vertical-align: 8px;
@@ -321,4 +321,40 @@ body {
 }
 .feed-section > .content > .payment > img {
   margin-top: 60px;
+}
+/*================================================================================================*/
+/*=================================== 4 - TESTIMONIALS-SECTION ===================================*/
+/*================================================================================================*/
+.testimonials-section {
+  padding: 140px 180px 180px 180px;
+  position: relative;
+}
+.testimonials-section > h3 {
+  margin: 0px;
+  text-align: center;
+  margin-bottom: 47px;
+}
+.testimonials-section .cards > * {
+  display: inline-block;
+  max-width: calc(100% / 4 - 20px);
+}
+.testimonials-section .indicator {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  max-width: 55%;
+  height: 6px;
+}
+.testimonials-section > img {
+  position: absolute;
+  right: 0px;
+  max-height: 300px;
+}
+.testimonials-section .cards {
+  text-align: justify;
+  margin-bottom: 21px;
+}
+.testimonials-section .cards::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
