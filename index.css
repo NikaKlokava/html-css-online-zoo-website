@@ -326,7 +326,7 @@ body {
 /*=================================== 4 - TESTIMONIALS-SECTION ===================================*/
 /*================================================================================================*/
 .testimonials-section {
-  padding: 140px 180px 0px 180px;
+  padding: 140px 180px 180px 180px;
   position: relative;
 }
 .testimonials-section > h3 {
@@ -336,18 +336,25 @@ body {
 }
 .testimonials-section .cards > * {
   display: inline-block;
-  max-width: calc(100% / 4 - 3px);
-  margin-bottom: 21px;
+  max-width: calc(100% / 4 - 20px);
 }
 .testimonials-section .indicator {
   margin: 0 auto;
   margin-bottom: 32px;
-}
-.testimonials-section button {
-  margin-bottom: 180px;
+  max-width: 55%;
+  height: 6px;
 }
 .testimonials-section > img {
   position: absolute;
   right: 0px;
   max-height: 300px;
+}
+.testimonials-section .cards {
+  text-align: justify;
+  margin-bottom: 21px;
+}
+.testimonials-section .cards::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
 }
