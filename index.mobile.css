@@ -152,6 +152,7 @@
 }
 .testimonials-section .cards > * {
   max-width: calc(100% / 4 - 10px);
+  vertical-align: top;
 }
 .testimonials-section .indicator {
   height: 3px;
