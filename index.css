@@ -322,42 +322,6 @@ body {
 .feed-section > .content > .payment > img {
   margin-top: 60px;
 }
-/*================================================================================================*/
-/*========================================== 5 - FOOTER SECTION ==================================*/
-/*================================================================================================*/
-.footer-section {
-  background: #000000;
-  width: 100%;
-}
-.footer-section .content {
-  padding: 40px 180px 50px 180px;
-}
-.footer-section .content > * {
-  display: inline-block;
-}
-.footer-section .content > .links > button {
-  margin-top: 68px;
-  margin-bottom: 44px;
-}
-.footer-section .navigation > * {
-  color: white;
-  text-decoration: none;
-  display: inline-block;
-}
-.footer-section .navigation {
-  padding-left: 100px;
-  text-align: justify;
-  width: 400px;
-  line-height: 0;
-}
-.navigation::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
-  overflow: hidden;
-  visibility: hidden;
-  height: 0;
-}
 /*=================================== 4 - TESTIMONIALS-SECTION ===================================*/
 /*================================================================================================*/
 .testimonials-section {
@@ -382,6 +346,7 @@ body {
 .testimonials-section > img {
   position: absolute;
   right: 0px;
+  bottom: 0px;
   max-height: 300px;
 }
 .testimonials-section .cards {
@@ -392,4 +357,42 @@ body {
   content: "";
   display: inline-block;
   width: 100%;
+}
+/*================================================================================================*/
+/*========================================== 5 - FOOTER SECTION ==================================*/
+/*================================================================================================*/
+.footer-section {
+  background: #000000;
+  padding: 40px 180px 50px 180px;
+}
+
+.footer-section > * {
+  display: inline-block;
+  width: calc(100% / 3 - 20px);
+}
+
+.footer-section > .links > button {
+  margin-top: 68px;
+  margin-bottom: 44px;
+}
+.footer-section .navigation > * {
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+}
+.footer-section .navigation {
+  text-align: justify;
+  line-height: 0;
+}
+.navigation::after {
+  content: "";
+  display: inline-block;
+  width: 100%;
+}
+.footer-section .subscribe > p:nth-child(1),
+.footer-section .subscribe > p:nth-child(2) {
+  font-weight:100;
+  color: #ffffff;
+  margin: 0px;
+  padding-left: 100px;
 }
