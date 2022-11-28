@@ -142,3 +142,15 @@
   margin-left: 10px;
   margin-right: 10px;
 }
+/******************************************** Footer-section ****************************************/
+.footer-section .content {
+  padding: 30px;
+}
+.footer-section .content > .links > button {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.footer-section .navigation {
+  width: 150px;
+  line-height: 0;
+}

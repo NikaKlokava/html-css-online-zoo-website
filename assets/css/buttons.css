@@ -91,7 +91,8 @@
   }
   .button-type-1,
   .button-type-2,
-  .button-type-3 {
+  .button-type-3,
+  .button-type-5 {
     width: 100px;
     height: 24px;
     font-size: 6px;
