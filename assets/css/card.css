@@ -112,6 +112,27 @@
   .fish {
     padding-top: 4px;
   }
+  .testimonial-card {
+    border-radius: 10px;
+    height: 200px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-bottom: 10px solid #f1f3f2;
+  }
+  .gradient {
+    padding: 1px;
+    border-radius: 11px;
+  }
+  .testimonial-card > .header {
+    width: 100%;
+    padding: 3px 0px;
+  }
+  .testimonial-card > .header > * {
+    margin-right: 3px;
+  }
+  .testimonial-card > .header > img {
+    max-width: 20px;
+  }
 }
 /********************************  testimonial-indicator  ********************/
 .indicator {
