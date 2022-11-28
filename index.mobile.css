@@ -1,4 +1,17 @@
 /******************************************** Banner-section ******************************************/
+/* web-header */
+.banner-section > .web-header > :nth-child(1) {
+  margin: 3px 0px 3px 30px;
+}
+.banner-section > .web-header > :nth-child(2) {
+  padding-left: 10px;
+}
+.banner-section .web-header > a,
+.banner-section .web-header > p {
+  padding-left: 18px;
+  vertical-align: 4px;
+}
+/* panda-section */
 .banner-section {
   height: 100%;
 }

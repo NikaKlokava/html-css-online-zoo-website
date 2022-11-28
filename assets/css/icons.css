@@ -60,13 +60,15 @@
     width: 80px;
   }
   .logo {
-    width: 60px;
+    width: 30px;
     padding-bottom: 2px;
   }
   .logo > p {
-    font-size: 16px;
+    font-size: 8px;
   }
   .logo > img {
-    left: 5px;
+    left: 2px;
+    bottom: 3px;
+    width: 7px;
   }
 }
