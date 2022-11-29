@@ -37,6 +37,7 @@
   font-weight: 400;
   text-transform: none;
   color: #000000;
+  margin: 0px;
 }
 /******************************************** button states *******************************************/
 .button-type-1:hover {
@@ -97,5 +98,10 @@
     width: 100px;
     height: 24px;
     font-size: 6px;
+  }
+  .button-type-6 {
+    width: 40px;
+    height: 21px;
+    font-size: 10px;
   }
 }

@@ -324,6 +324,7 @@ body {
 }
 /*=================================== 4 - TESTIMONIALS-SECTION ===================================*/
 /*================================================================================================*/
+/************************************************* cards *******************************************/
 .testimonials-section {
   padding: 140px 180px 180px 180px;
   position: relative;
@@ -337,18 +338,6 @@ body {
   display: inline-block;
   max-width: calc(100% / 4 - 20px);
 }
-.testimonials-section .indicator {
-  margin: 0 auto;
-  margin-bottom: 32px;
-  max-width: 55%;
-  height: 6px;
-}
-.testimonials-section > img {
-  position: absolute;
-  right: 0px;
-  bottom: 0px;
-  max-height: 300px;
-}
 .testimonials-section .cards {
   text-align: justify;
   margin-bottom: 21px;
@@ -358,9 +347,24 @@ body {
   display: inline-block;
   width: 100%;
 }
+/******************************************* indicator *******************************************/
+.testimonials-section .indicator {
+  margin: 0 auto;
+  margin-bottom: 32px;
+  max-width: 55%;
+  height: 6px;
+}
+/******************************************* flower *******************************************/
+.testimonials-section > img {
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  max-height: 300px;
+}
 /*================================================================================================*/
 /*========================================== 5 - FOOTER SECTION ==================================*/
 /*================================================================================================*/
+/******************************************* links *******************************************/
 .footer-section {
   background: #000000;
   padding: 40px 180px 50px 180px;
@@ -368,13 +372,14 @@ body {
 
 .footer-section > * {
   display: inline-block;
-  width: calc(100% / 3 - 20px);
+  width: calc((100% - (2 * 0.25em)) / 3);
+  vertical-align: top;
 }
-
 .footer-section > .links > button {
   margin-top: 68px;
   margin-bottom: 44px;
 }
+/******************************************* navigation *******************************************/
 .footer-section .navigation > * {
   color: white;
   text-decoration: none;
@@ -383,16 +388,34 @@ body {
 .footer-section .navigation {
   text-align: justify;
   line-height: 0;
+  vertical-align: bottom;
 }
 .navigation::after {
   content: "";
   display: inline-block;
   width: 100%;
 }
-.footer-section .subscribe > p:nth-child(1),
-.footer-section .subscribe > p:nth-child(2) {
-  font-weight:100;
+/******************************************* subscribe *******************************************/
+.footer-section .form {
+  margin-bottom: 215px;
+}
+.footer-section .form > * {
+  display: inline-block;
+}
+.footer-section .form > p {
   color: #ffffff;
   margin: 0px;
-  padding-left: 100px;
+  margin-bottom: 14px;
+}
+.footer-section .form > input {
+  width: calc((100% - 0.25em) / 2);
+  padding: 10px;
+}
+.footer-section .designed {
+  margin-left: 100px;
+}
+.footer-section .designed > * {
+  font-weight: 100;
+  color: #ffffff;
+  margin: 0px;
 }
