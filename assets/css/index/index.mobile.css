@@ -1,16 +1,18 @@
 /******************************************** Banner-section ******************************************/
 /* web-header */
-.banner-section > .web-header > :nth-child(1) {
-  margin: 3px 0px 3px 30px;
+
+.banner-section .web-header {
+  padding: 3px 30px;
+  width: calc(100% - 60px);
 }
-.banner-section > .web-header > :nth-child(2) {
-  padding-left: 10px;
+.banner-section .web-header > div {
+  width: 100%;
 }
-.banner-section .web-header > a,
-.banner-section .web-header > p {
-  padding-left: 18px;
-  vertical-align: 4px;
+.banner-section .web-header .links {
+  width: 80%;
+  margin-top: 5px;
 }
+
 /* panda-section */
 .banner-section {
   height: 100%;
@@ -104,19 +106,16 @@
 }
 /******************************************** Feed-section ******************************************/
 .feed-section {
-  padding-top: 30px;
-  padding-bottom: 50px;
+  padding: 30px 30px 50px 30px;
 }
 .feed-section > .content {
   border-radius: 10px;
-  margin-left: 30px;
-  margin-right: 30px;
   padding-bottom: 20px;
+  padding-top: 20px;
 }
 
 /* texts */
 .feed-section > .content > .texts > :nth-child(1) {
-  padding-top: 20px;
   padding-bottom: 20px;
 }
 .feed-section > .content > .texts > :nth-child(2) {
@@ -159,7 +158,6 @@
 }
 .testimonials-section .cards > * {
   max-width: calc(100% / 4 - 10px);
-  vertical-align: top;
 }
 .testimonials-section .indicator {
   height: 3px;
@@ -174,9 +172,6 @@
 .footer-section > .links > button {
   margin-top: 30px;
   margin-bottom: 20px;
-}
-.footer-section .navigation {
-  line-height: 0;
 }
 .footer-section .form {
   margin-bottom: 150px;

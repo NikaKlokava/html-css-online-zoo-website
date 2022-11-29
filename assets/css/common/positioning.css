@@ -1,8 +1,11 @@
 .inline-block-row {
   text-align: justify;
+  line-height: 0;
+  margin-bottom: -0.35em !important;
 }
 .inline-block-row > * {
   display: inline-block;
+  vertical-align: top;
 }
 .inline-block-row:after {
   content: "";

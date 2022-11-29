@@ -4,33 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <title>My zoo website</title>
-    <link rel="stylesheet" href="./assets/css/text.css" />
-    <link rel="stylesheet" href="./assets/css/buttons.css" />
-    <link rel="stylesheet" href="./assets/css/card.css" />
-    <link rel="stylesheet" href="./assets/css/icons.css" />
-    <link rel="stylesheet" href="./assets/css/links.css" />
-    <link rel="stylesheet" href="./assets/css/input.css" />
-    <link rel="stylesheet" href="./assets/css/positioning.css" />
-    <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="./assets/css/common/text.css" />
+    <link rel="stylesheet" href="./assets/css/common/buttons.css" />
+    <link rel="stylesheet" href="./assets/css/common/card.css" />
+    <link rel="stylesheet" href="./assets/css/common/icons.css" />
+    <link rel="stylesheet" href="./assets/css/common/links.css" />
+    <link rel="stylesheet" href="./assets/css/common/input.css" />
+    <link rel="stylesheet" href="./assets/css/common/positioning.css" />
+    <link rel="stylesheet" href="./assets/css/index/index.css" />
     <link
       rel="stylesheet"
       media="screen and (max-width: 420px)"
-      href="index.mobile.css"
+      href="./assets/css/index/index.mobile.css"
     />
   </head>
   <body>
     <div class="banner-section">
       <img src="./assets/images/Giant_Panda.png" />
       <div class="web-header">
-        <div class="logo">
-          <p>PetStory online</p>
-          <img src="./assets/icons/bamboo_2.svg" />
+        <div class="inline-block-row">
+          <div class="logo">
+            <p>PetStory online</p>
+            <img src="./assets/icons/bamboo_2.svg" />
+          </div>
+          <div class="links inline-block-row">
+            <a class="text body-medium active" href="">About</a>
+            <a class="text body-medium" href="">Map</a>
+            <a class="text body-medium" href="">Zoos</a>
+            <a class="text body-medium" href="">Contact us</a>
+            <p class="text body-medium">Designed by Veranika <span>©</span></p>
+          </div>
         </div>
-        <a class="text body-medium active" href="">About</a>
-        <a class="text body-medium" href="">Map</a>
-        <a class="text body-medium" href="">Zoos</a>
-        <a class="text body-medium" href="">Contact us</a>
-        <p class="text body-medium">Designed by Veranika <span>©</span></p>
       </div>
       <div class="content">
         <div class="ellipse"></div>
@@ -215,7 +219,7 @@
     </div>
     <div class="testimonials-section">
       <h3 class="text header-3">Testimonials</h3>
-      <div class="cards">
+      <div class="inline-block-row">
         <div class="gradient">
           <div class="testimonial-card">
             <div class="header">
@@ -341,7 +345,7 @@
       <button class="button button-type-4">leave feedback</button>
       <img src="./assets/images/leav_foto.png" />
     </div>
-    <div class="footer-section">
+    <div class="footer-section inline-block-row">
       <div class="links">
         <div class="logo">
           <p>PetStory online</p>
@@ -375,7 +379,7 @@
           </div>
         </div>
       </div>
-      <div class="navigation">
+      <div class="navigation inline-block-row">
         <a class="text body" href="">About</a>
         <a class="text body" href="">Map</a>
         <a class="text body" href="">Zoos</a>
