@@ -177,9 +177,6 @@
 .footer-section {
   padding: 30px;
 }
-.footer-section > * {
-  width: calc(100% / 3 - 3px);
-}
 .footer-section > .links > button {
   margin-top: 30px;
   margin-bottom: 20px;
@@ -187,24 +184,15 @@
 .footer-section .navigation {
   line-height: 0;
 }
-.footer-section .subscribe > p:nth-child(1),
-.footer-section .subscribe > p:nth-child(2) {
-  padding-left: 5px;
-  font-size: 6px;
-}
-.footer-section .subscribe > p:nth-child(1) {
-  padding-bottom: 7px;
-}
-.footer-section .subscribe > input {
-  width: 55px;
-  height: 15px;
+.footer-section .form {
   margin-bottom: 150px;
 }
-input::placeholder {
-  font-size: 8px;
-  padding-left: 2px;
+.footer-section .form > input {
+  padding: 2px;
 }
-.footer-section .subscribe > :nth-child(4),
-.footer-section .subscribe > :nth-child(5) {
+.footer-section .designed {
   margin-left: 10px;
+}
+.footer-section .designed > * {
+  font-size: 6px;
 }

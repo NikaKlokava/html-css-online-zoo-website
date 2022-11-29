@@ -37,6 +37,7 @@
   font-weight: 400;
   text-transform: none;
   color: #000000;
+  margin: 0px;
 }
 /******************************************** button states *******************************************/
 .button-type-1:hover {
