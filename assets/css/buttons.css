@@ -1,5 +1,4 @@
 .button {
-  margin-top: 10px; /* временно */
   border-style: none;
   width: 298px;
   height: 54px;
@@ -37,7 +36,6 @@
   font-weight: 400;
   text-transform: none;
   color: #000000;
-  margin: 0px;
 }
 /******************************************** button states *******************************************/
 .button-type-1:hover {
@@ -100,8 +98,9 @@
     font-size: 6px;
   }
   .button-type-6 {
-    width: 40px;
+    width: 30px;
     height: 21px;
-    font-size: 10px;
+    font-size: 8px;
+    padding: 1px;
   }
 }

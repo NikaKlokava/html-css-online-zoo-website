@@ -1,22 +1,19 @@
-.icon > .images {
-  background: #ffffff;
+.icon {
   width: 168px;
-  height: 168px;
+}
+.icon > .image {
+  background: #ffffff;
   border-radius: 5px;
   border: 1px solid #fe9013;
+  margin-bottom: 30px;
+  height: 168px;
 }
-.icon > .images > img {
+.icon > .image > img {
   display: block;
-  margin: 0 auto;
-  padding-top: 54px;
-}
-.icon > .texts {
-  width: 168px;
-  max-height: 76px;
+  margin: 45px auto;
 }
 .icon > .texts > p {
   margin: 0px;
-  padding-top: 30px;
   color: #333b41;
 }
 /* footer logo*/
@@ -45,19 +42,21 @@
 
 /*=============================================  @media ============================================*/
 @media (max-width: 420px) {
-  .icon > .images {
-    width: 80px;
-    height: 80px;
+  .icon {
+    width: 75px;
   }
-  .icon > .images > img {
-    width: 75%;
-    padding-top: 24px;
+  .icon > .image {
+    width: 75px;
+    height: 75px;
+    margin-bottom: 10px;
   }
-  .icon > .texts > p {
-    padding-top: 10px;
+  .icon > .image > img {
+    width: 70%;
+    height: 70%;
+    margin: 10px auto;
   }
   .icon > .texts {
-    width: 80px;
+    width: 75px;
   }
   .logo {
     width: 30px;

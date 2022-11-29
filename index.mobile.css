@@ -140,20 +140,14 @@
 }
 
 /* payment */
-.feed-section .payment > div:nth-child(3) > .images > img {
-  padding-top: 5px;
-}
 .feed-section > .content > .payment > img {
-  width: 30px;
-  height: 30px;
-  margin-top: 25px;
-}
-.feed-section > .content > .payment > * {
-  margin-left: calc((100% - 80px * 3 - 38px * 2 - 6px - 0.5em) / 6);
+  width: 25px;
+  height: 20px;
+  margin-top: 30px;
 }
 .feed-section > .content > .payment {
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 /***************************************** Testimonial-section ****************************************/
 .testimonials-section {
