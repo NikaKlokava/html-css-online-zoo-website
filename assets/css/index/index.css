@@ -12,29 +12,29 @@ body {
 
 /*****************************************   Website header  **************************************/
 .banner-section .web-header {
+  position: absolute; /* we need it, because otherwise it takes the place below image */
+  top: 0;
+  left: 0;
   width: 100%;
   background: black;
-  position: absolute; /* we need it, because otherwise it takes the place below image */
-  top: 0px;
-  backdrop-filter: blur(2px);
+  padding: 14px 0px 14px 220px;
 }
-.banner-section .web-header > * {
-  display: inline-block;
+.banner-section .web-header > div {
+  margin: 0;
+  width: 50%;
+}
+.banner-section .web-header .links {
+  line-height: 0;
+  width: 80%;
+  margin-top: 20px;
+}
+.banner-section .web-header a,
+.banner-section .web-header p {
+  margin: 0;
   color: #ffffff;
-}
-.banner-section .web-header > a,
-.banner-section .web-header > p {
-  margin: 0px;
-  padding-left: 58px;
-  vertical-align: 8px;
   text-decoration: none;
 }
-.banner-section > .web-header > :nth-child(1) {
-  margin: 14px 0px 14px 220px;
-}
-.banner-section > .web-header > :nth-child(2) {
-  padding-left: 63px;
-}
+
 /*************************************** BACKGROUND ***************************************/
 .banner-section {
   height: 780px;
@@ -246,16 +246,13 @@ body {
       #eaf7fe 149.54%
     );
   opacity: 0.9;
-  width: 100%;
-  padding-top: 69px;
-  padding-bottom: 100px;
+  padding: 69px 180px 100px 180px;
 }
 .feed-section > .content {
   background: rgba(253, 253, 255, 0.52);
   backdrop-filter: blur(2px);
   border-radius: 20px;
-  margin-left: 180px;
-  margin-right: 180px;
+  padding-top: 41px;
   padding-bottom: 59px;
 }
 /********************************************  Texts  ****************************************/
@@ -265,7 +262,6 @@ body {
 }
 .feed-section > .content > .texts > :nth-child(1) {
   color: #fe9013;
-  padding-top: 41px;
   padding-bottom: 30px;
   text-align: center;
 }
@@ -317,23 +313,12 @@ body {
   text-align: center;
   margin-bottom: 47px;
 }
-.testimonials-section .cards > * {
-  display: inline-block;
+.testimonials-section .gradient {
   max-width: calc(100% / 4 - 20px);
-}
-.testimonials-section .cards {
-  text-align: justify;
-  margin-bottom: 21px;
-}
-.testimonials-section .cards::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
 }
 /******************************************* indicator *******************************************/
 .testimonials-section .indicator {
-  margin: 0 auto;
-  margin-bottom: 32px;
+  margin: 21px auto 32px auto;
   max-width: 55%;
   height: 6px;
 }
@@ -354,9 +339,7 @@ body {
 }
 
 .footer-section > * {
-  display: inline-block;
   width: calc((100% - (2 * 0.25em)) / 3);
-  vertical-align: top;
 }
 .footer-section > .links > button {
   margin-top: 68px;
@@ -366,17 +349,9 @@ body {
 .footer-section .navigation > * {
   color: white;
   text-decoration: none;
-  display: inline-block;
 }
 .footer-section .navigation {
-  text-align: justify;
-  line-height: 0;
   vertical-align: bottom;
-}
-.navigation::after {
-  content: "";
-  display: inline-block;
-  width: 100%;
 }
 /******************************************* subscribe *******************************************/
 .footer-section .form {
