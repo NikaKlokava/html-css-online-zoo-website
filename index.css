@@ -300,27 +300,10 @@ body {
   margin-right: 100px;
 }
 .feed-section > .content > .payment > * {
-  display: inline-block;
   vertical-align: top;
-  margin-left: calc(
-    (100% - 168px * 3 - 69px * 2 - 6px - 0.5em) / 6
-  ); /* 
-  * 100% - whole width
-  * 168px - width of one card (we have three of them, that's why * 3)
-  * 69px - width of one arrow (we have two, so that we need to * 2)
-  * 6px - width of one border in each card - 1px, we have 3 cards, each of them 
-  have 2 borders, so that we have 6 borders, 6 * 1px = 6px
-  * 0.5 em - standart margin that already presents in the first/third card (0.25 em in each)
-   */
 }
-.feed-section .payment > div:nth-child(2) > .images > img {
-  padding-top: 38px;
-}
-.feed-section .payment > div:nth-child(3) > .images > img {
-  padding-top: 48px;
-}
-.feed-section > .content > .payment > img {
-  margin-top: 60px;
+.feed-section .payment > img {
+  margin-top: 70px;
 }
 /*=================================== 4 - TESTIMONIALS-SECTION ===================================*/
 /*================================================================================================*/
