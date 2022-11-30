@@ -5,7 +5,7 @@
   padding: 3px 30px;
   width: calc(100% - 60px);
 }
-.banner-section .web-header > div {
+.banner-section .web-header > nav {
   width: 100%;
 }
 .banner-section .web-header .links {

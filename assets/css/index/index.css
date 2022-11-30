@@ -19,7 +19,7 @@ body {
   background: black;
   padding: 14px 0px 14px 220px;
 }
-.banner-section .web-header > div {
+.banner-section .web-header > nav {
   margin: 0;
   width: 50%;
 }
